@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=220&section=header&text=StrongWind&fontSize=84&fontColor=ffffff&fontAlignY=38&animation=fadeIn&desc=Windows%20%2F%20Active%20Directory%20%26%20Wi-Fi%20Security%20Research&descSize=18&descAlignY=62&descColor=cfd8dc" alt="StrongWind" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=220&section=header&text=StrongWind&fontSize=84&fontColor=ffffff&fontAlignY=38&animation=fadeIn&desc=Windows%20%2F%20Active%20Directory%20and%20Wi-Fi%20Security%20Research&descSize=18&descAlignY=62&descColor=cfd8dc" alt="StrongWind" />
 
 </div>
 
