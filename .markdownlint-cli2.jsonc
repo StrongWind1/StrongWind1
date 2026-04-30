@@ -1,0 +1,13 @@
+{
+  "config": {
+    "default": true,
+    "MD013": false,           // line-length — handled by formatter
+    "MD033": false,           // inline HTML — required for the 3-column table
+    "MD041": false,           // first-line H1 — disabled because top is HTML banner
+    "MD024": { "siblings_only": true }
+  },
+  "ignores": [
+    "github-metrics.svg",
+    ".github/"
+  ]
+}

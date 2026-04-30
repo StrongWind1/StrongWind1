@@ -1,0 +1,73 @@
+# StrongWind
+
+Windows / Active Directory & Wi-Fi security research.
+Author of the **Wolf** offensive toolkit.
+Contact: `strongwind@brv.email`
+
+<!-- metrics_start -->
+![Metrics](./github-metrics.svg)
+<!-- metrics_end -->
+
+## The Wolf toolkit
+
+| Tool | Purpose | Lang |
+| --- | --- | --- |
+| [**CredWolf**](https://github.com/StrongWind1/CredWolf) | Validate AD credentials over NTLM and Kerberos — passwords, hashes, keys, tickets | Python |
+| [**KerbWolf**](https://github.com/StrongWind1/KerbWolf) | Kerberos roasting and TGT attack toolkit for Active Directory | Python |
+| [**NFSWolf**](https://github.com/StrongWind1/NFSWolf) | Native NFSv2/v3/v4 recon, enumeration, exploitation, and interactive shell | Rust |
+| [**WPAWolf**](https://github.com/StrongWind1/WPAWolf) | WPA / WPA2 / WPA3-FT-PSK handshake extractor for hashcat (modes 22000 + 37100) | Rust |
+
+> **Currently researching:**
+>
+> - new Kerberos abuse primitives in KerbWolf
+> - deeper WPA/WPA2 PSK analysis with WPAWolf
+> - folding public NFS vulnerabilities into NFSWolf as a single fast, statically-linked binary
+
+## Reference docs
+
+- [**Kerberos**](https://github.com/StrongWind1/Kerberos) — protocol internals, security configuration, and attack techniques in MS Active Directory
+- [**WiFi_Cracking**](https://github.com/StrongWind1/WiFi_Cracking) — WPA / WPA2 PSK security analysis reference
+
+## Recent activity
+
+<table>
+<tr>
+<td valign="top" width="33%">
+
+### Writeups
+
+_Blog coming soon._
+
+</td>
+<td valign="top" width="33%">
+
+### Tool releases
+
+<!-- releases_start -->
+- [NFSWolf · v0.3.0](https://github.com/StrongWind1/NFSWolf/releases/tag/v0.3.0) — 2026-04-29
+- [NFSWolf · v0.2.0](https://github.com/StrongWind1/NFSWolf/releases/tag/v0.2.0) — 2026-04-29
+- [WPAWolf · v0.3.0](https://github.com/StrongWind1/WPAWolf/releases/tag/v0.3.0) — 2026-04-28
+- [WPAWolf · v0.2.0](https://github.com/StrongWind1/WPAWolf/releases/tag/v0.2.0) — 2026-04-28
+- [WPAWolf · v0.1.0](https://github.com/StrongWind1/WPAWolf/releases/tag/v0.1.0) — 2026-04-28
+<!-- releases_end -->
+
+</td>
+<td valign="top" width="33%">
+
+### Protocol analysis
+
+<!-- analysis_start -->
+- [**Kerberos**](https://github.com/StrongWind1/Kerberos) — Comprehensive reference for Kerberos authentication in Microsoft Ac... · ★ 5
+- [**WiFi_Cracking**](https://github.com/StrongWind1/WiFi_Cracking) — Complete technical reference for WPA/WPA2 PSK security analysis · ★ 1
+<!-- analysis_end -->
+
+</td>
+</tr>
+</table>
+
+## Contact
+
+- Email: [strongwind@brv.email](mailto:strongwind@brv.email)
+- Mastodon: [@StrongWind@infosec.exchange](https://infosec.exchange/@StrongWind)
+- X: [@Strong1Wind](https://x.com/Strong1Wind)
+- Reddit: [u/StrongWind1](https://reddit.com/user/StrongWind1/)

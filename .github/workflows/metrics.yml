@@ -1,0 +1,42 @@
+name: Metrics
+
+on:
+  schedule:
+    - cron: "0 12 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/metrics.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: metrics-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Generate metrics SVG
+        # lowlighter/metrics v3.34
+        uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: StrongWind1
+          filename: github-metrics.svg
+          template: classic
+          base: header, activity, community, metadata
+          config_timezone: America/New_York
+          plugin_languages: yes
+          plugin_languages_ignored: html, css, javascript
+          plugin_languages_details: bytes-size, percentage
+          plugin_languages_indepth: yes
+          plugin_languages_limit: 6
+          plugin_topics: yes
+          plugin_topics_mode: icons
+          plugin_followup: yes
+          plugin_lines: yes
