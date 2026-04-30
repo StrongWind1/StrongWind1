@@ -1,3 +1,6 @@
+# Generated files (committed by Actions) are not subject to local hooks.
+exclude: ^github-metrics\.svg$
+
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v5.0.0

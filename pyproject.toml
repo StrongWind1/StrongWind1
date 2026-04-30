@@ -16,7 +16,8 @@ ignore = [
 ]
 
 [tool.ruff.lint.per-file-ignores]
-"scripts/*" = ["D"]
+# EXE003: PEP 723 uv scripts use `uv run --script` shebang, not `python`
+"scripts/*" = ["D", "EXE003"]
 
 [tool.codespell]
 skip = "github-metrics.svg,*.lock"
