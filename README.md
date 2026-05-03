@@ -4,9 +4,16 @@
 
 </div>
 
-Author of the **Wolf** offensive toolkit. Contact: [strongwind@brv.email](mailto:strongwind@brv.email)
+Author of various offensive tools and research.
 
-## The Wolf toolkit
+## Contact
+
+- Email: [strongwind@brv.email](mailto:strongwind@brv.email)
+- Mastodon: [@StrongWind@infosec.exchange](https://infosec.exchange/@StrongWind)
+- X: [@Strong1Wind](https://x.com/Strong1Wind)
+- Reddit: [u/StrongWind1](https://reddit.com/user/StrongWind1/)
+
+## The Wolf Tools
 
 | Tool | Purpose | Lang |
 | --- | --- | --- |
@@ -62,13 +69,6 @@ _Blog coming soon._
 </td>
 </tr>
 </table>
-
-## Contact
-
-- Email: [strongwind@brv.email](mailto:strongwind@brv.email)
-- Mastodon: [@StrongWind@infosec.exchange](https://infosec.exchange/@StrongWind)
-- X: [@Strong1Wind](https://x.com/Strong1Wind)
-- Reddit: [u/StrongWind1](https://reddit.com/user/StrongWind1/)
 
 <div align="center">
 
