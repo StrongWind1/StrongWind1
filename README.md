@@ -49,11 +49,11 @@ _Blog coming soon._
 ### Tool releases
 
 <!-- releases_start -->
+- [WPAWolf · v0.3.3](https://github.com/StrongWind1/WPAWolf/releases/tag/v0.3.3) — 2026-05-05
 - [WPAWolf · v0.3.2](https://github.com/StrongWind1/WPAWolf/releases/tag/v0.3.2) — 2026-05-01
 - [WPAWolf · v0.3.1](https://github.com/StrongWind1/WPAWolf/releases/tag/v0.3.1) — 2026-04-30
 - [NFSWolf · v0.3.0](https://github.com/StrongWind1/NFSWolf/releases/tag/v0.3.0) — 2026-04-29
 - [NFSWolf · v0.2.0](https://github.com/StrongWind1/NFSWolf/releases/tag/v0.2.0) — 2026-04-29
-- [WPAWolf · v0.3.0](https://github.com/StrongWind1/WPAWolf/releases/tag/v0.3.0) — 2026-04-28
 <!-- releases_end -->
 
 </td>
