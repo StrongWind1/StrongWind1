@@ -50,8 +50,8 @@ _Blog coming soon._
 
 <!-- releases_start -->
 - [WPAWolf · v0.3.5](https://github.com/StrongWind1/WPAWolf/releases/tag/v0.3.5) — 2026-05-12
+- [WPAWolf · v0.3.6](https://github.com/StrongWind1/WPAWolf/releases/tag/v0.3.6) — 2026-05-12
 - [WPAWolf · v0.3.4](https://github.com/StrongWind1/WPAWolf/releases/tag/v0.3.4) — 2026-05-06
-- [WPAWolf · v0.3.3](https://github.com/StrongWind1/WPAWolf/releases/tag/v0.3.3) — 2026-05-05
 - [NFSWolf · v0.3.0](https://github.com/StrongWind1/NFSWolf/releases/tag/v0.3.0) — 2026-04-29
 - [NFSWolf · v0.2.0](https://github.com/StrongWind1/NFSWolf/releases/tag/v0.2.0) — 2026-04-29
 <!-- releases_end -->
