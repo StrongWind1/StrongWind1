@@ -8,7 +8,7 @@ Author of various offensive tools and research.
 
 ## Contact
 
-- Email: [strongwind@brv.email](mailto:strongwind@brv.email)
+- Email: [hello@strongwind.dev](mailto:hello@strongwind.dev)
 - Mastodon: [@StrongWind@infosec.exchange](https://infosec.exchange/@StrongWind)
 - X: [@Strong1Wind](https://x.com/Strong1Wind)
 - Reddit: [u/StrongWind1](https://reddit.com/user/StrongWind1/)
