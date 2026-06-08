@@ -8,7 +8,7 @@ I build spec-accurate offensive security tooling for Active Directory, Kerberos,
 
 ## Contact
 
-[Email](mailto:hello@strongwind.dev) &bull; [Mastodon](https://infosec.exchange/@StrongWind) &bull; [X](https://x.com/Strong1Wind) &bull; [Reddit](https://reddit.com/user/StrongWind1/)
+[hello@strongwind.dev](mailto:hello@strongwind.dev) &bull; [@StrongWind@infosec.exchange](https://infosec.exchange/@StrongWind) &bull; [@Strong1Wind](https://x.com/Strong1Wind) &bull; [u/StrongWind1](https://reddit.com/user/StrongWind1/)
 
 ## Tools
 
