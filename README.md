@@ -4,21 +4,20 @@
 
 </div>
 
-Author of various offensive tools and research.
+I build spec-accurate offensive security tooling for Active Directory, Kerberos, and Wi-Fi — Python and Rust, validated against the wire, not guessed.
 
 ## Contact
 
-- Email: [hello@strongwind.dev](mailto:hello@strongwind.dev)
-- Mastodon: [@StrongWind@infosec.exchange](https://infosec.exchange/@StrongWind)
-- X: [@Strong1Wind](https://x.com/Strong1Wind)
-- Reddit: [u/StrongWind1](https://reddit.com/user/StrongWind1/)
+[Email](mailto:hello@strongwind.dev) &bull; [Mastodon](https://infosec.exchange/@StrongWind) &bull; [X](https://x.com/Strong1Wind) &bull; [Reddit](https://reddit.com/user/StrongWind1/)
 
-## The Wolf Tools
+## Tools
 
 | Tool | Purpose | Lang |
 | --- | --- | --- |
 | [**CredWolf**](https://github.com/StrongWind1/CredWolf) | Validate AD credentials over NTLM and Kerberos — passwords, hashes, keys, tickets | Python |
 | [**KerbWolf**](https://github.com/StrongWind1/KerbWolf) | Kerberos roasting and TGT attack toolkit for Active Directory | Python |
+| [**NTDSWolf**](https://github.com/StrongWind1/NTDSWolf) | Offline NTDS.dit parser and credential extractor — NT/LM, Kerberos keys, LAPS, gMSA | Python |
+| [**AD-SecretGen**](https://github.com/StrongWind1/AD-SecretGen) | Derive every password-derived AD secret (NT/LM, Kerberos keys, WDigest) from a password | Python |
 | [**NFSWolf**](https://github.com/StrongWind1/NFSWolf) | Native NFSv2/v3/v4 recon, enumeration, exploitation, and interactive shell | Rust |
 | [**WPAWolf**](https://github.com/StrongWind1/WPAWolf) | WPA / WPA2 / WPA3-FT-PSK handshake extractor for hashcat (modes 22000 + 37100) | Rust |
 
@@ -37,14 +36,7 @@ Author of various offensive tools and research.
 
 <table>
 <tr>
-<td valign="top" width="33%">
-
-### Writeups
-
-_Blog coming soon._
-
-</td>
-<td valign="top" width="33%">
+<td valign="top" width="50%">
 
 ### Tool releases
 
@@ -57,7 +49,7 @@ _Blog coming soon._
 <!-- releases_end -->
 
 </td>
-<td valign="top" width="33%">
+<td valign="top" width="50%">
 
 ### Protocol analysis
 
@@ -71,10 +63,6 @@ _Blog coming soon._
 </table>
 
 <div align="center">
-
-<!-- metrics_start -->
-<img src="./github-metrics.svg" alt="GitHub metrics" width="800" />
-<!-- metrics_end -->
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=120&section=footer" alt="" />
 

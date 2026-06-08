@@ -20,4 +20,4 @@ ignore = [
 "scripts/*" = ["D", "EXE003"]
 
 [tool.codespell]
-skip = "github-metrics.svg,*.lock"
+skip = "*.lock"
