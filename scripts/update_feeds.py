@@ -28,13 +28,13 @@ USER = "StrongWind1"
 README = Path("README.md")
 TOKEN = os.environ.get("GITHUB_TOKEN", "")
 
-# Releases from these repos populate the "Tool releases" column.
-TOOL_REPOS = ("CredWolf", "KerbWolf", "NFSWolf", "WPAWolf")
-
-# Recent commits to these repos populate the "Protocol analysis" column.
+# The "Protocol analysis" column is a curated list of reference-doc repos,
+# rendered with their live description and star count.
 ANALYSIS_REPOS = ("Kerberos", "WiFi_Cracking")
 
 MAX_ITEMS = 5
+# Over-fetch per repo so draft releases can't crowd out published ones before the global top-MAX_ITEMS cut.
+RELEASES_PER_REPO = 10
 HTTP_TIMEOUT = 30
 DESC_MAX = 70
 DESC_TRUNC = 67
@@ -53,15 +53,58 @@ def gh_api(path: str) -> list | dict:
         return json.load(r)
 
 
-def fetch_releases() -> list[str]:
-    """Latest GitHub releases across the Wolf toolkit repos."""
-    items: list[tuple[str, str, str, str]] = []
-    for repo in TOOL_REPOS:
-        try:
-            releases = gh_api(f"/repos/{USER}/{repo}/releases?per_page=3")
-        except (urllib.error.URLError, KeyError, TypeError):
+def owned_repos() -> list[str]:
+    """Names of every non-fork repository owned by USER.
+
+    Drives the release feed dynamically so a newly published tool appears
+    without anyone editing this script.
+    """
+    try:
+        repos = gh_api(f"/users/{USER}/repos?per_page=100&type=owner&sort=updated")
+    except (urllib.error.URLError, KeyError, TypeError):
+        return []
+    if not isinstance(repos, list):
+        return []
+    names: list[str] = []
+    for r in repos:
+        if isinstance(r, dict) and not r.get("fork", False):
+            name = r.get("name")
+            if isinstance(name, str):
+                names.append(name)
+    return names
+
+
+def _repo_releases(repo: str) -> list[tuple[str, str, str, str]]:
+    """Published (non-draft) releases for one repo as (published_at, repo, name, url) tuples."""
+    try:
+        releases = gh_api(f"/repos/{USER}/{repo}/releases?per_page={RELEASES_PER_REPO}")
+    except (urllib.error.URLError, KeyError, TypeError):
+        return []
+    if not isinstance(releases, list):
+        return []
+    out: list[tuple[str, str, str, str]] = []
+    for rel in releases:
+        if not isinstance(rel, dict) or rel.get("draft"):
             continue
-        items.extend((rel["published_at"] or "", repo, rel["name"] or rel["tag_name"], rel["html_url"]) for rel in releases)
+        published = rel.get("published_at")
+        if not isinstance(published, str) or not published:
+            continue
+        name = rel.get("name") or rel.get("tag_name") or ""
+        url = rel.get("html_url") or ""
+        out.append((published, repo, str(name), str(url)))
+    return out
+
+
+def fetch_releases() -> list[str]:
+    """Latest published releases across every non-fork repo you own.
+
+    Repos are discovered at runtime (see owned_repos), so shipping a release in
+    any owned repo surfaces it here automatically. Drafts have no published_at
+    and are skipped.
+    """
+    items: list[tuple[str, str, str, str]] = []
+    for repo in owned_repos():
+        items.extend(_repo_releases(repo))
     items.sort(reverse=True)
     if not items:
         return ["_No releases yet._"]
