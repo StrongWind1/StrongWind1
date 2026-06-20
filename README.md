@@ -55,7 +55,7 @@ I build spec-accurate offensive security tooling for Active Directory, Kerberos,
 
 <!-- analysis_start -->
 - [**Kerberos**](https://github.com/StrongWind1/Kerberos) — Comprehensive reference for Kerberos authentication in Microsoft Ac... · ★ 6
-- [**WiFi_Cracking**](https://github.com/StrongWind1/WiFi_Cracking) — Complete technical reference for WPA/WPA2 PSK security analysis · ★ 1
+- [**WiFi_Cracking**](https://github.com/StrongWind1/WiFi_Cracking) — Complete technical reference for WPA/WPA2 PSK security analysis · ★ 2
 <!-- analysis_end -->
 
 </td>
