@@ -41,11 +41,11 @@ I build spec-accurate offensive security tooling for Active Directory, Kerberos,
 ### Tool releases
 
 <!-- releases_start -->
-- [PassWolf · v0.1.0](https://github.com/StrongWind1/PassWolf/releases/tag/v0.1.0) — 2026-06-30
-- [NFSWolf · v0.5.0](https://github.com/StrongWind1/NFSWolf/releases/tag/v0.5.0) — 2026-06-29
-- [NFSWolf · v0.4.0](https://github.com/StrongWind1/NFSWolf/releases/tag/v0.4.0) — 2026-06-29
-- [WEPWolf · v1.1.0](https://github.com/StrongWind1/WEPWolf/releases/tag/v1.1.0) — 2026-06-26
-- [WPAWolf · v1.1.0](https://github.com/StrongWind1/WPAWolf/releases/tag/v1.1.0) — 2026-06-24
+- [WPAWolf · v1.2.0](https://github.com/StrongWind1/WPAWolf/releases/tag/v1.2.0) — 2026-07-02
+- [WEPWolf · v1.2.0](https://github.com/StrongWind1/WEPWolf/releases/tag/v1.2.0) — 2026-07-02
+- [NFSWolf · v0.6.0](https://github.com/StrongWind1/NFSWolf/releases/tag/v0.6.0) — 2026-07-02
+- [tpwalk · v0.2.0](https://github.com/StrongWind1/tpwalk/releases/tag/v0.2.0) — 2026-07-02
+- [PassWolf · v0.2.0](https://github.com/StrongWind1/PassWolf/releases/tag/v0.2.0) — 2026-07-02
 <!-- releases_end -->
 
 </td>
