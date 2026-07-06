@@ -1,7 +1,3 @@
-## Contact
-
-[hello@strongwind.dev](mailto:hello@strongwind.dev)
-
 ## Tools
 
 | Tool | Purpose | Lang |
@@ -19,3 +15,7 @@
 
 - [**Kerberos**](https://github.com/StrongWind1/Kerberos) — protocol internals, security configuration, and attack techniques in MS Active Directory
 - [**WiFi_Cracking**](https://github.com/StrongWind1/WiFi_Cracking) — WPA / WPA2 PSK security analysis reference
+
+## Contact
+
+[hello@strongwind.dev](mailto:hello@strongwind.dev)
