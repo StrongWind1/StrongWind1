@@ -1,6 +1,6 @@
 ## Contact
 
-[hello@strongwind.dev](mailto:hello@strongwind.dev) &bull; [@StrongWind@infosec.exchange](https://infosec.exchange/@StrongWind) &bull; [@Strong1Wind](https://x.com/Strong1Wind) &bull; [u/StrongWind1](https://reddit.com/user/StrongWind1/)
+[hello@strongwind.dev](mailto:hello@strongwind.dev)
 
 ## Tools
 
