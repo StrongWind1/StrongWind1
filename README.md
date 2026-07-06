@@ -1,11 +1,3 @@
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=220&section=header&text=StrongWind&fontSize=84&fontColor=ffffff&fontAlignY=38&animation=fadeIn&desc=Windows%20%2F%20Active%20Directory%20and%20Wi-Fi%20Security%20Research&descSize=18&descAlignY=62&descColor=cfd8dc" alt="StrongWind" />
-
-</div>
-
-I build spec-accurate offensive security tooling for Active Directory, Kerberos, and Wi-Fi — Python and Rust, validated against the wire, not guessed.
-
 ## Contact
 
 [hello@strongwind.dev](mailto:hello@strongwind.dev) &bull; [@StrongWind@infosec.exchange](https://infosec.exchange/@StrongWind) &bull; [@Strong1Wind](https://x.com/Strong1Wind) &bull; [u/StrongWind1](https://reddit.com/user/StrongWind1/)
@@ -21,49 +13,9 @@ I build spec-accurate offensive security tooling for Active Directory, Kerberos,
 | [**NFSWolf**](https://github.com/StrongWind1/NFSWolf) | Native NFSv2/v3/v4 recon, enumeration, exploitation, and interactive shell | Rust |
 | [**WPAWolf**](https://github.com/StrongWind1/WPAWolf) | WPA / WPA2 / WPA3-FT-PSK handshake extractor for hashcat (modes 22000 + 37100) | Rust |
 
-> **Currently researching:**
->
-> - new Kerberos abuse primitives in KerbWolf
-> - deeper WPA/WPA2 PSK analysis with WPAWolf
-> - folding public NFS vulnerabilities into NFSWolf as a single fast, statically-linked binary
-
-## Reference docs
+## Protocol analysis
 
 - [**Kerberos**](https://github.com/StrongWind1/Kerberos) — protocol internals, security configuration, and attack techniques in MS Active Directory
 - [**WiFi_Cracking**](https://github.com/StrongWind1/WiFi_Cracking) — WPA / WPA2 PSK security analysis reference
-
-## Recent activity
-
-<table>
-<tr>
-<td valign="top" width="50%">
-
-### Tool releases
-
-<!-- releases_start -->
-- [WPAWolf · v1.2.0](https://github.com/StrongWind1/WPAWolf/releases/tag/v1.2.0) — 2026-07-02
-- [WEPWolf · v1.2.0](https://github.com/StrongWind1/WEPWolf/releases/tag/v1.2.0) — 2026-07-02
-- [NFSWolf · v0.6.0](https://github.com/StrongWind1/NFSWolf/releases/tag/v0.6.0) — 2026-07-02
-- [tpwalk · v0.2.0](https://github.com/StrongWind1/tpwalk/releases/tag/v0.2.0) — 2026-07-02
-- [PassWolf · v0.2.0](https://github.com/StrongWind1/PassWolf/releases/tag/v0.2.0) — 2026-07-02
-<!-- releases_end -->
-
-</td>
-<td valign="top" width="50%">
-
-### Protocol analysis
-
-<!-- analysis_start -->
-- [**Kerberos**](https://github.com/StrongWind1/Kerberos) — Comprehensive reference for Kerberos authentication in Microsoft Ac... · ★ 7
-- [**WiFi_Cracking**](https://github.com/StrongWind1/WiFi_Cracking) — Complete technical reference for WPA/WPA2 PSK security analysis · ★ 2
-<!-- analysis_end -->
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:203A43,100:2C5364&height=120&section=footer" alt="" />
 
 </div>
