@@ -19,15 +19,15 @@
 
 | Tool | Purpose | Docs |
 | --- | --- | --- |
-| [**WPAWolf**](https://github.com/StrongWind1/WPAWolf) | WPA / WPA2 / WPA3-FT-PSK handshake extractor for hashcat (modes 22000 + 37100) | [![Docs](https://img.shields.io/badge/docs-strongwind.dev-blue)](https://strongwind.dev/WiFi_Cracking/) |
-| [**WEPWolf**](https://github.com/StrongWind1/WEPWolf) | Offline, passive WEP key recovery from 802.11 captures | [![Docs](https://img.shields.io/badge/docs-strongwind.dev-blue)](https://strongwind.dev/WEPWolf/) |
+| [**WPAWolf**](https://github.com/StrongWind1/WPAWolf) | WPA / WPA2 / WPA3-FT-PSK handshake extractor for hashcat (modes 22000 + 37100) | [![Crate](https://img.shields.io/crates/v/wpawolf.svg)](https://crates.io/crates/wpawolf) |
+| [**WEPWolf**](https://github.com/StrongWind1/WEPWolf) | Offline, passive WEP key recovery from 802.11 captures | [![Crate](https://img.shields.io/crates/v/wepwolf.svg)](https://crates.io/crates/wepwolf) [![Docs](https://img.shields.io/badge/docs-strongwind.dev-blue)](https://strongwind.dev/WEPWolf/) |
 
 ## Network
 
-| Tool | Purpose |
-| --- | --- |
-| [**NFSWolf**](https://github.com/StrongWind1/NFSWolf) | Native NFSv2/v3/v4 recon, enumeration, exploitation, and interactive shell |
-| [**tpwalk**](https://github.com/StrongWind1/tpwalk) | TP-Link GPL source and firmware URL scraper, verifier, and downloader [![PyPI](https://img.shields.io/pypi/v/tpwalk.svg)](https://pypi.org/project/tpwalk/) [![Docs](https://img.shields.io/badge/docs-strongwind.dev-blue)](https://strongwind.dev/tpwalk/) |
+| Tool | Purpose | Docs |
+| --- | --- | --- |
+| [**NFSWolf**](https://github.com/StrongWind1/NFSWolf) | Native NFSv2/v3/v4 recon, enumeration, exploitation, and interactive shell | |
+| [**tpwalk**](https://github.com/StrongWind1/tpwalk) | TP-Link GPL source and firmware URL scraper, verifier, and downloader | [![PyPI](https://img.shields.io/pypi/v/tpwalk.svg)](https://pypi.org/project/tpwalk/) [![Docs](https://img.shields.io/badge/docs-strongwind.dev-blue)](https://strongwind.dev/tpwalk/) |
 
 ## Reference
 
