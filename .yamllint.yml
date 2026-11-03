@@ -1,7 +1,5 @@
 extends: default
 
-ignore-from-file: .gitignore
-
 yaml-files:
   - "*.yaml"
   - "*.yml"
