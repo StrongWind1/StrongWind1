@@ -26,7 +26,7 @@
 
 | Tool | Purpose | Docs |
 | --- | --- | --- |
-| [**NFSWolf**](https://github.com/StrongWind1/NFSWolf) | Native NFSv2/v3/v4 recon, enumeration, exploitation, and interactive shell | |
+| [**NFSWolf**](https://github.com/StrongWind1/NFSWolf) | Native NFSv2/v3/v4 recon, enumeration, exploitation, and interactive shell | [![Crate](https://img.shields.io/crates/v/nfswolf.svg)](https://crates.io/crates/nfswolf) [![Docs](https://img.shields.io/badge/docs-strongwind.dev-blue)](https://strongwind.dev/NFSWolf/) |
 | [**tpwalk**](https://github.com/StrongWind1/tpwalk) | TP-Link GPL source and firmware URL scraper, verifier, and downloader | [![PyPI](https://img.shields.io/pypi/v/tpwalk.svg)](https://pypi.org/project/tpwalk/) [![Docs](https://img.shields.io/badge/docs-strongwind.dev-blue)](https://strongwind.dev/tpwalk/) |
 
 ## Reference
