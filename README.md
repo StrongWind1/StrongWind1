@@ -19,7 +19,7 @@
 
 | Tool | Purpose | Docs |
 | --- | --- | --- |
-| [**WPAWolf**](https://github.com/StrongWind1/WPAWolf) | WPA / WPA2 / WPA3-FT-PSK handshake extractor for hashcat (modes 22000 + 37100) | [![Crate](https://img.shields.io/crates/v/wpawolf.svg)](https://crates.io/crates/wpawolf) |
+| [**WPAWolf**](https://github.com/StrongWind1/WPAWolf) | WPA / WPA2 / WPA3 PSK handshake extractor for hashcat (modes 22000 + 37100) | [![Crate](https://img.shields.io/crates/v/wpawolf.svg)](https://crates.io/crates/wpawolf) |
 | [**WEPWolf**](https://github.com/StrongWind1/WEPWolf) | Offline, passive WEP key recovery from 802.11 captures | [![Crate](https://img.shields.io/crates/v/wepwolf.svg)](https://crates.io/crates/wepwolf) [![Docs](https://img.shields.io/badge/docs-strongwind.dev-blue)](https://strongwind.dev/WEPWolf/) |
 
 ## Network
@@ -28,6 +28,12 @@
 | --- | --- | --- |
 | [**NFSWolf**](https://github.com/StrongWind1/NFSWolf) | Native NFSv2/v3/v4 recon, enumeration, exploitation, and interactive shell | [![Crate](https://img.shields.io/crates/v/nfswolf.svg)](https://crates.io/crates/nfswolf) [![Docs](https://img.shields.io/badge/docs-strongwind.dev-blue)](https://strongwind.dev/NFSWolf/) |
 | [**tpwalk**](https://github.com/StrongWind1/tpwalk) | TP-Link GPL source and firmware URL scraper, verifier, and downloader | [![PyPI](https://img.shields.io/pypi/v/tpwalk.svg)](https://pypi.org/project/tpwalk/) [![Docs](https://img.shields.io/badge/docs-strongwind.dev-blue)](https://strongwind.dev/tpwalk/) |
+
+## Office
+
+| Tool | Purpose | Docs |
+| --- | --- | --- |
+| [**office-password-toolkit**](https://github.com/StrongWind1/office-password-toolkit) | Detect, extract, bypass, and decrypt passwords in Microsoft Office and OpenDocument files | [![PyPI](https://img.shields.io/pypi/v/office-password-toolkit.svg)](https://pypi.org/project/office-password-toolkit/) [![Docs](https://img.shields.io/badge/docs-strongwind.dev-blue)](https://strongwind.dev/office-password-toolkit/) |
 
 ## Reference
 
