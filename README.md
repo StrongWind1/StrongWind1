@@ -9,6 +9,7 @@
 | Tool | Purpose | Docs |
 | --- | --- | --- |
 | [**NFSWolf**](https://github.com/StrongWind1/NFSWolf) | Native NFSv2/v3/v4 recon, enumeration, exploitation, and interactive shell | [![Crate](https://img.shields.io/crates/v/nfswolf.svg)](https://crates.io/crates/nfswolf) [![Docs](https://img.shields.io/badge/docs-strongwind.dev-blue)](https://strongwind.dev/NFSWolf/) |
+| [**IKEWolf**](https://github.com/StrongWind1/IKEWolf) | IKE/IPsec scanner -- endpoint discovery, transform enumeration, vendor fingerprinting, and Aggressive Mode PSK hash extraction | |
 
 ## Active Directory
 
