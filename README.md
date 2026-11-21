@@ -36,6 +36,12 @@
 | [**office-password-toolkit**](https://github.com/StrongWind1/office-password-toolkit) | Detect, extract, bypass, and decrypt passwords in Microsoft Office and OpenDocument files | [![PyPI](https://img.shields.io/pypi/v/office-password-toolkit.svg)](https://pypi.org/project/office-password-toolkit/) | [![Docs](https://img.shields.io/badge/docs-strongwind.dev-blue)](https://strongwind.dev/office-password-toolkit/) |
 | [**ArchiveWolf**](https://github.com/StrongWind1/ArchiveWolf) | Encrypted ZIP / RAR / 7-Zip analyser and hashcat hash converter, with key recovery for RAR 1.3 and ZipCrypto | not published | |
 
+## Other
+
+| Tool | Purpose | Package | Docs |
+| --- | --- | --- | --- |
+| [**shopify-viewer**](https://github.com/StrongWind1/shopify-viewer) | Browse and analyze product data from any Shopify store | | [![Live](https://img.shields.io/badge/live-strongwind.dev-blue)](https://strongwind.dev/shopify-viewer/) |
+
 ## Reference
 
 - [**Kerberos**](https://strongwind.dev/Kerberos/) -- protocol internals, security configuration, and attack techniques in MS Active Directory
