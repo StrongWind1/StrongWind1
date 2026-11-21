@@ -45,7 +45,7 @@
 ## Reference
 
 - [**Kerberos**](https://strongwind.dev/Kerberos/): protocol internals, security configuration, and attack techniques for Kerberos in Active Directory, including the April 2026 RC4-to-AES enforcement change
-- [**WiFi_Cracking**](https://strongwind.dev/WiFi_Cracking/): WPA / WPA2 / WPA3 PSK security analysis reference
+- [**WiFi_Cracking**](https://strongwind.dev/WiFi_Cracking/): IEEE 802.11 security reference: WPA/WPA2/WPA3 PSK, EAP, and WEP, from protocol internals to cracking
 
 ## Contact
 
